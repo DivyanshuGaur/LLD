@@ -3,6 +3,6 @@ package behavioral.strategy.withoutStrategy;
 public class Vehicle {
 
 		public void drive() {
-			System.out.println("Normal Drive ....");
+			System.out.println("Normal Drive .....");
 		}
 }
