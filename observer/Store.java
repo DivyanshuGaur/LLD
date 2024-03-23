@@ -12,7 +12,7 @@ public class Store {
 			
 			StockObservable iphoneStock=new IphoneObservableImpl();
 			NotificationAlertObserver obsrvrObj1=new 
-												EmailObserverImpl("xyz@gmail.com",iphoneStock);
+					EmailObserverImpl("xyz@gmail.com",iphoneStock);
 			NotificationAlertObserver obsrvrObj2=new 
 					EmailObserverImpl("xyz@yahoo.com",iphoneStock);
 			NotificationAlertObserver obsrvrObj3=new 
