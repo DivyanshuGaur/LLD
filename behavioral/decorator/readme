@@ -1,0 +1,9 @@
+BasePizza myPizza=new ExtraCheeseTopping(new VeggiePizza());
+
+new VeggiePizza() -> pizza object -> obj1
+new ExtraCheeseTopping(new VeggiePizza()); -> obj1 + pizza obj = obj2
+
+
+BasePizza ----> ToppingDecorator {is-a}
+BasePizza ----> Mushroom , Extra Cheese {has-a}
+
