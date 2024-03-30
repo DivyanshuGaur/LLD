@@ -1,5 +1,0 @@
-When Objects needs to be created based on certain inputs , 
-we need generic implementation implementation instead of creating one by one.
-
-
-In the example , any number of Shape Objects can be created using Shape Factory
